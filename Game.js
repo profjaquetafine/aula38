@@ -65,7 +65,7 @@ var y
    }
    //Seta para cima prescionada - Alterado pela professora
    if(keyIsDown(UP_ARROW) && player.index !== null){
-    player.distance +=50
+    player.distance +=10
     player.update();
   }
 
